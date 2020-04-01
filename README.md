@@ -100,3 +100,5 @@ We can do the comparison with TileInsideList method
 <a href="https://en.wikipedia.org/wiki/Fog_of_war">Fog of War history and early stages</a>
 
 <a href="https://https://www.redblobgames.com/articles/visibility/">2D visibility explanation</a>
+
+<a href="http://bobkoon.com/how-to-implement-a-fog-of-war-part-1-chunky/">Explanation of how we take the area from the map</a>
