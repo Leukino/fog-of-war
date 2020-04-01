@@ -7,6 +7,7 @@ Hello, this is a research project of Fog of War implementation in an RTS game. I
 Fog of war is a term that refers to describe the uncertainty in situation awareness experienced for militars in military operations. However, in video games, the fog of war reffers to giving the player partial information of a certain area, which makes the player re-think the strategy of the gameplay taking in account the leaking information. 
 
 <img src="docs/age_of_empires_2.png" alt="Age of Empires II" class="inline"/>
+Age of Empires 2 for PC
 
 ## Early stages
 
@@ -14,6 +15,7 @@ The earliest use of fog of war was in the 1977 game Empire by Walter Bright, and
 From this moment, games like Age of Empires started to add this functionality and more advanced features, like hidden effects. 
 
 ![](docs/empire.jpg)
+Empire for AMIGA
 
 ## Types of Fog of War
 
@@ -26,6 +28,7 @@ In these games the fog of war is managed with a meta-data information copy of th
 Common games that use tiled version fog of war are RTS based games, like Warcraft II and Age of Empires saga. 
 
 <img src="docs/tiled_based_game.png" alt="" class="inline"/>
+Warcraft II for PC
 
 ## Masked version
 
@@ -34,10 +37,17 @@ The most common usage is to manage the color and the alpha of the overlapping im
 Common games are 2D RPG games, like Pokemon in dark caves, where you need the HM flash to remove the fog. 
 
 <img src="docs/masked_based_game.png" alt="" class="inline"/>
+Pokemon Emerald for GameBoy Advance
 
 ## 2D vision games
 
 Fog of war in these games is a bit more complex than other types. In these games, the program simulates 2D areas from making raycast from a vision emitter to nearby objects, the same way a static light illuminates a room. The most common usage is to create 2D complex forms from the collision of the raycast to the nearby vertexes of the objects surrounding the provider of visibility. This way we can generate an area which will have visibility characteristics, and will pack the whole non-visible area to fogged area. The principal games that use this system are MOBA's like League of Legends and DOTA 2. 
+
+<img src="docs/league_of_legends.png" alt="" class="inline"/>
+League of Legends Fog of War areas highlighted
+
+<img src="docs/2d_visibility.png" alt="" class="inline"/>
+Raycast debug of the area creation method
 
 ## Code implementation
 
