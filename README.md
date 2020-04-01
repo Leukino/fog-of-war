@@ -61,3 +61,16 @@ TODO 7: Set the visibility of every tile we just moved to VISIBLE
 TODO 8: To finish, we now need to apply foggness to the tiles we left behind. We do this with SetVisibilityTile. 
 We previously stored the tiles in prev_LOS. 
 To ensure we take the tiles that are no longer in the LOS, we compare it with the prev_LOS, with the function TileInsideList
+
+## Possible Innovations
+
+- Smoothing edges of the border visible tiles so it visually looks more clean and natural
+- Making the tiles have an animation that would make the fogged tiles have a transition between being fully visible and being semi-opaque when changed. 
+- Making an entity use the state of visibility to have certain effects. For example, more damage if it is being under fog of war. 
+- Modifying the A* so it takes in account if a tile is under fog of war. Would we want our troops to pass through a fog of war? Should we avoid it? What would be the walkability value for the fog of war?
+
+## References
+
+<a href="https://en.wikipedia.org/wiki/Fog_of_war">Fog of War history and early stages</a>
+
+<a href="https://https://www.redblobgames.com/articles/visibility/">2D visibility explanation</a>
