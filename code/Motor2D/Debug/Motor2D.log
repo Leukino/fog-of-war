@@ -1,0 +1,30 @@
+﻿  DummyEnemy.cpp
+  Fow.cpp
+  j1Main.cpp
+  j1App.cpp
+  j1Audio.cpp
+  j1Input.cpp
+  j1Map.cpp
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(147,19): warning C4244: '=': conversión de 'float' a 'TYPE'; posible pérdida de datos
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(147,19): warning C4244:         with
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(147,19): warning C4244:         [
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(147,19): warning C4244:             TYPE=int
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(147,19): warning C4244:         ]
+  j1Scene.cpp
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(148,19): warning C4244: '=': conversión de 'float' a 'TYPE'; posible pérdida de datos
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(148,19): warning C4244:         with
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(148,19): warning C4244:         [
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(148,19): warning C4244:             TYPE=int
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Map.cpp(148,19): warning C4244:         ]
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Scene.cpp(60,9): warning C4101: 'y': variable local sin referencia
+  j2EntityManager.cpp
+  p2Log.cpp
+  j1Render.cpp
+  j1Textures.cpp
+  j1Window.cpp
+  Player.cpp
+  pugixml.cpp
+  Generando código...
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\j1Scene.cpp(60,6): warning C4101: 'x': variable local sin referencia
+C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Motor2D\Fow.cpp(189): warning C4172: devolución de dirección de la variable local o temporal: ret
+  Motor2D.vcxproj -> C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Debug\Fog of War.exe

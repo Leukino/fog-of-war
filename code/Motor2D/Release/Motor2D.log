@@ -1,0 +1,24 @@
+﻿  DummyEnemy.cpp
+  Fow.cpp
+  Player.cpp
+  j1App.cpp
+  j1Map.cpp
+j1Map.cpp(147,19): warning C4244: '=': conversión de 'float' a 'TYPE'; posible pérdida de datos
+j1Map.cpp(147,19): warning C4244:         with
+j1Map.cpp(147,19): warning C4244:         [
+j1Map.cpp(147,19): warning C4244:             TYPE=int
+j1Map.cpp(147,19): warning C4244:         ]
+  j1Scene.cpp
+j1Map.cpp(148,19): warning C4244: '=': conversión de 'float' a 'TYPE'; posible pérdida de datos
+j1Map.cpp(148,19): warning C4244:         with
+j1Map.cpp(148,19): warning C4244:         [
+j1Map.cpp(148,19): warning C4244:             TYPE=int
+j1Map.cpp(148,19): warning C4244:         ]
+j1Scene.cpp(60,9): warning C4101: 'y': variable local sin referencia
+j1Scene.cpp(60,6): warning C4101: 'x': variable local sin referencia
+  Generando código
+  0 of 1015 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Motor2D.vcxproj -> C:\Users\Usuario\Documents\GitHub\fog-of-war\fog of war miquel quintana\code\Release\Fog of War.exe
