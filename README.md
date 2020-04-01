@@ -11,7 +11,7 @@ Fog of war is a term that refers to describe the uncertainty in situation awaren
 The earliest use of fog of war was in the 1977 game Empire by Walter Bright, and in 1978 in the game Tanktics from Chris Crawford. Later on, in 1982, he said "limit[ing] the amount of information available to the human player" to compensate for the computer's lack of intelligence.
 From this moment, games like Age of Empires started to add this functionality and more advanced features, like hidden effects. 
 
-!([]docs/empire.jpg)
+![](docs/empire.jpg)
 
 ## Types of Fog of War
 
