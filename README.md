@@ -31,3 +31,31 @@ Common games are 2D RPG games, like Pokemon in dark caves, where you need the HM
 
 Fog of war in these games is a bit more complex than other types. In these games, the program simulates 2D areas from making raycast from a vision emitter to nearby objects, the same way a static light illuminates a room. The most common usage is to create 2D complex forms from the collision of the raycast to the nearby vertexes of the objects surrounding the provider of visibility. This way we can generate an area which will have visibility characteristics, and will pack the whole non-visible area to fogged area. The principal games that use this system are MOBA's like League of Legends and DOTA 2. 
 
+## Code implementation
+
+TODO 1: Change the map blit. We don't want to blit tiles that aren't visited. 
+You need to check if the tile at this position is has been visited, even if it's in fog of war.
+Go search a function that returns info about the tile at fow.cpp
+
+
+TODO 2: Create a new fow_entity that will be linked to this entity. (search for a method in fow.cpp)
+keep the pointer of the new entity at the fow_entity pointer. 
+
+TODO 3: Update the state of visibility; sync this entity's visibility with it's fow_entity visibility.
+We are doing this because the FowManager is already taking care of the fow_entity visibility, here we are just updating the entity state.
+
+TODO 4: Update the fow_entity position from this position. 
+If we don't do this, our providing visibility entity won't be synced with the sight emitted.
+
+TODO 5: Create a first sight quad (createsightquad in fow.cpp). This is gonna store the tile id's nearby to the emitting visibility entity.
+Store the pointer at fow_entity->frontier
+Once we have it done, fulfill the tile types with fulfillSight. This is called the Line of Sight. (LOS)
+
+TODO 6: Whenever we move our providing sight entity, we need to update the LOS so the tiles of the LOS are updated with the range of the entity.
+We do this checking the amount of distance the entity has moved in tiles
+
+TODO 7: Set the visibility of every tile we just moved to VISIBLE
+
+TODO 8: To finish, we now need to apply foggness to the tiles we left behind. We do this with SetVisibilityTile. 
+We previously stored the tiles in prev_LOS. 
+To ensure we take the tiles that are no longer in the LOS, we compare it with the prev_LOS, with the function TileInsideList
