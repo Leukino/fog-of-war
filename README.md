@@ -42,9 +42,9 @@ Pokemon Emerald for GameBoy Advance
 ## 2D vision games
 
 Fog of war in these games is a bit more complex than other types. In these games, the program simulates 2D areas from making raycast from a vision emitter to nearby objects, the same way a static light illuminates a room. The most common usage is to create 2D complex forms from the collision of the raycast to the nearby vertexes of the objects surrounding the provider of visibility. This way we can generate an area which will have visibility characteristics, and will pack the whole non-visible area to fogged area. The principal games that use this system are MOBA's like League of Legends and DOTA 2. 
-
 <img src="docs/league_of_legends.png" alt="" class="inline"/>
 League of Legends Fog of War areas highlighted
+
 
 <img src="docs/2d_visibility.png" alt="" class="inline"/>
 Raycast debug of the area creation method
