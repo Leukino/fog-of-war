@@ -51,6 +51,8 @@ Raycast debug of the area creation method
 
 ## Code implementation
 
+The handout has a basic program that lets the user move a providing balloon with the keyboard arrow keys and move the camera with WASD, and displays a "sea" map with certain hidden enemy entities. 
+
 TODO 1: Change the map blit so it takes in account fogged tiles. 
 
 <img src="docs/todo_1.png" alt="" class="inline"/>
