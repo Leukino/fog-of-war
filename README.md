@@ -1,6 +1,7 @@
 # FOG OF WAR
 
-Hello, this is a research project of Fog of War implementation in an RTS game. It is made for the Bachelor degree in Game Development and Design in CITM, UPC.
+## Presentation
+Hello, this is a research project of Fog of War implementation in an RTS game. It is made for the Bachelor degree in Game Development and Design in CITM, UPC. This content is generated for the second year's subject Project 2, under supervision of lecturer Ramon Santamaria. 
 
 ## What is Fog of war?
 
